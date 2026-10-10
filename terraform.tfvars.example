@@ -1,0 +1,11 @@
+# Copy to terraform.tfvars to override defaults. Everything here is optional.
+
+# region        = "us-east-1"
+# azs           = ["us-east-1a", "us-east-1b"]
+# instance_type = "t3.micro"
+
+# Turn on a standby database in the second AZ (high availability, about double the DB cost)
+# db_multi_az = true
+
+# If RDS rejects the backup setting on a free-tier account, lower this to 1
+# db_backup_retention_days = 7
